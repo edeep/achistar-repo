@@ -17,6 +17,6 @@ public class DockerJenkinsCiDemoApplication {
 	@GetMapping("/achistar")
 	public String landingPage() {
 		System.out.println("Inside Landing main... two...");
-		return ("Hello AchistarApplication");
+		return ("Hello Achistar Application after update.....");
 	}
 }
